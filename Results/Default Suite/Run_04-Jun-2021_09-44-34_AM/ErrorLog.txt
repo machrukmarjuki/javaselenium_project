@@ -1,0 +1,101 @@
+Jun 04, 2021 9:44:34 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 20207
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 80
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'Machruks-MacBook-Pro.local', ip: 'fe80:0:0:0:4be:e926:d805:a58c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '16'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver.exe                    0x000000010fba0329 chromedriver.exe + 3838761
+1   chromedriver.exe                    0x000000010fb3a123 chromedriver.exe + 3420451
+2   chromedriver.exe                    0x000000010f8ae62f chromedriver.exe + 751151
+3   chromedriver.exe                    0x000000010f80ffa6 chromedriver.exe + 102310
+4   chromedriver.exe                    0x000000010f80bf7f chromedriver.exe + 85887
+5   chromedriver.exe                    0x000000010f83b473 chromedriver.exe + 279667
+6   chromedriver.exe                    0x000000010f8382b3 chromedriver.exe + 266931
+7   chromedriver.exe                    0x000000010f8120bd chromedriver.exe + 110781
+8   chromedriver.exe                    0x000000010f813055 chromedriver.exe + 114773
+9   chromedriver.exe                    0x000000010fb61ebf chromedriver.exe + 3583679
+10  chromedriver.exe                    0x000000010fb6ee4a chromedriver.exe + 3636810
+11  chromedriver.exe                    0x000000010fb6ebe7 chromedriver.exe + 3636199
+12  chromedriver.exe                    0x000000010fb45839 chromedriver.exe + 3467321
+13  chromedriver.exe                    0x000000010fb6f707 chromedriver.exe + 3639047
+14  chromedriver.exe                    0x000000010fb57cc7 chromedriver.exe + 3542215
+15  chromedriver.exe                    0x000000010fb85324 chromedriver.exe + 3728164
+16  chromedriver.exe                    0x000000010fba6387 chromedriver.exe + 3863431
+17  libsystem_pthread.dylib             0x00007fff60d632eb _pthread_body + 126
+18  libsystem_pthread.dylib             0x00007fff60d66249 _pthread_start + 66
+19  libsystem_pthread.dylib             0x00007fff60d6240d thread_start + 13
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at com.gsInfo.framework.selenium.WebDriverFactory.getWebDriver(WebDriverFactory.java:99)
+	at com.gsInfo.core.CoreScript.initDriver(CoreScript.java:507)
+	at com.gsInfo.core.CoreScript.driveTestExecution(CoreScript.java:90)
+	at testcases.WebAdmin.Tc_1176_newPromSpecDate(WebAdmin.java:99)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:71)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.io.FileNotFoundException: Source '/Users/machruk/Nimbly/local-java-selenium-automation/test-output/testng.css' does not exist
+	at org.apache.commons.io.FileUtils.checkFileRequirements(FileUtils.java:1383)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1060)
+	at org.apache.commons.io.FileUtils.copyFileToDirectory(FileUtils.java:1000)
+	at org.apache.commons.io.FileUtils.copyFileToDirectory(FileUtils.java:961)
+	at com.gsInfo.framework.selenium.ResultSummaryManager.wrapUp(ResultSummaryManager.java:278)
+	at com.gsInfo.core.BaseTestCase.tearDownTestSuite(BaseTestCase.java:181)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)

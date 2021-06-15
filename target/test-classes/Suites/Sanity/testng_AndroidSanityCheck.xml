@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Regression" parallel="methods" thread-count="1">
+
+
+    <test name="SanityCheck">
+        <classes>
+            <class name="testcases.AndroidApp">
+                <methods>
+                    <include name="tc_Android_App_Sanity"></include>
+                    <include name="tc_Android_App_IssueTracker"></include>
+                    <include name="tc_Android_App_UI"></include>
+                    <include name="tc_Android_App_Profile"></include>
+                    <include name="tc_Android_App_CreateAdHocIssue"></include>
+                    <include name="tc_Android_App_FilterIssueByRedFlag"></include>
+                    <include name="tc_Android_App_CreateAdHocIssueYellowFlag"></include>
+                    <include name="tc_Android_App_FilterIssueByYellowFlag"></include>
+                    <include name="tc_Android_App_FilterIssueBySite"></include>
+                    <include name="tc_Android_App_FilterIssueByDepart"></include>
+                    <include name="tc_Android_App_FilterIssueByRedFlag"></include>
+
+
+
+
+
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite> <!-- Suite -->

@@ -1,0 +1,22 @@
+{
+  "Business_Flow": [
+    {
+      "Tc_800_verifyDashboardoverview": "lauchApp,login,verifyDashboardoverview",
+      "Tc_801_verifyoverviewfilterfunctionality": "lauchApp,login,verifyDefaultFiltersfunctionality"
+    }
+  ],
+  "General_Data": [
+    {
+      "TC_ID": "Tc_800_verifyDashboardoverview",
+      "DepartmentName": "AutoDepartment_EY1c24",
+      "Email": "zahran@hellonimbly.com",
+      "Pwd": "P@ssw0rd"
+    },
+    {
+      "TC_ID": "Tc_801_verifyoverviewfilterfunctionality",
+      "DepartmentName": "AutoDepartment_EY1c24",
+      "Email": "zahran@hellonimbly.com",
+      "Pwd": "P@ssw0rd"
+    }
+  ]
+}

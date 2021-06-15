@@ -1,0 +1,155 @@
+Jun 10, 2021 10:56:27 PM org.openqa.selenium.remote.DesiredCapabilities firefox
+INFO: Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
+Jun 10, 2021 10:56:27 PM org.openqa.selenium.remote.DesiredCapabilities firefox
+INFO: Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
+Jun 10, 2021 10:56:27 PM org.openqa.selenium.remote.DesiredCapabilities firefox
+INFO: Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
+1623340588160	mozrunn1er::runner	IN1623340588160	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/CFO	Ru623340588160	mozrunner::runner	INFO	Running command: "/Appnning command: "/Applontents/Mications/Firefox.app/Contentslica/MacOS/firaticOS/firefoefox-bin" "-marioxnette" "-foreground" "-no-rons/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profemote" "-profile" "/var/fold-bin" "-marers/1j/bzw5lnls487cile" "/var/folders/jkbsknvy18x40ionette" "-foreg000gn/T/rust_mozprofilew1l1j/bzw5lnlsQqp"
+round" "-no-remote" "-profile" "/var/folders/1j/b487cjkbsknvy18x40000gn/T/rust_zwmozpr5ofile53ci0l"
+lnls487cjkbsknvy18x40000gn/T/rust_mozprofileYDxOQx"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623340591449	Marionette	INFO	Listening on port 53345
+1623340591497	Marionette	WARN	TLS certificate errors will be ignored for this session
+Jun 10, 2021 10:56:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1623340591607	Marionette	I1623340591607	Marionette	INFO	Listening on port 53343
+NFO	Listening on port 53344
+162331623340540591697	Marion91697	Marionette	WARN	TLS certiette	WARN	TLS cficate ertificate errerrors will be ignored for thiors will be igs session
+nored for this session
+Jun 10, 2021 10:56:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jun 10, 2021 10:56:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1623340600289	Marionette	INFO	Stopped listening on port 53343
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+Jun 10, 2021 10:56:41 PM org.openqa.selenium.remote.DesiredCapabilities firefox
+INFO: Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
+1623340601182	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/1j/bzw5lnls487cjkbsknvy18x40000gn/T/rust_mozprofileJmvOVs"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623340604399	Marionette	INFO	Listening on port 53779
+1623340604513	Marionette	WARN	TLS certificate errors will be ignored for this session
+Jun 10, 2021 10:56:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript warning: https://assetscdn-wchat.freshchat.com/static/assets/vendor-ae9740fdbeced57623cdffc937fa59b3.js, line 6905: unreachable code after return statement
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+JavaScript warning: https://assetscdn-wchat.freshchat.com/static/assets/vendor-ae9740fdbeced57623cdffc937fa59b3.js, line 6905: unreachable code after return statement
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+JavaScript error: https://admin.hellonimbly.com/static/js/54.afd2e8ec.chunk.js, line 2: uncaught exception: InvalidValueError: not a LatLng or LatLngLiteral: in property lat: not a number
+JavaScript error: https://maps.googleapis.com/maps/api/js?v=weekly&callback=initMap, line 147: TypeError: x is undefined
+JavaScript error: https://maps.googleapis.com/maps-api-v3/api/js/45/1a/map.js, line 65: TypeError: f is undefined
+JavaScript error: https://maps.googleapis.com/maps-api-v3/api/js/45/1a/map.js, line 65: TypeError: f is undefined
+JavaScript error: https://maps.googleapis.com/maps-api-v3/api/js/45/1a/map.js, line 104: TypeError: wa is undefined
+1623340616922	Marionette	INFO	Stopped listening on port 53345
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+Jun 10, 2021 10:56:57 PM org.openqa.selenium.remote.DesiredCapabilities firefox
+INFO: Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
+1623340617745	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/1j/bzw5lnls487cjkbsknvy18x40000gn/T/rust_mozprofile5Tz6UG"
+JavaScript warning: https://assetscdn-wchat.freshchat.com/static/assets/vendor-ae9740fdbeced57623cdffc937fa59b3.js, line 6905: unreachable code after return statement
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+1623340620201	Marionette	INFO	Listening on port 54263
+1623340620240	Marionette	WARN	TLS certificate errors will be ignored for this session
+Jun 10, 2021 10:57:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1623340626384	Marionette	INFO	Stopped listening on port 53779
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+Jun 10, 2021 10:57:07 PM org.openqa.selenium.remote.DesiredCapabilities firefox
+INFO: Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
+1623340627312	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/1j/bzw5lnls487cjkbsknvy18x40000gn/T/rust_mozprofile9GqFVT"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623340629607	Marionette	INFO	Listening on port 54550
+1623340629681	Marionette	WARN	TLS certificate errors will be ignored for this session
+Jun 10, 2021 10:57:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript warning: https://assetscdn-wchat.freshchat.com/static/assets/vendor-ae9740fdbeced57623cdffc937fa59b3.js, line 6905: unreachable code after return statement
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+1623340637603	Marionette	INFO	Stopped listening on port 54263
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+Jun 10, 2021 10:57:18 PM org.openqa.selenium.remote.DesiredCapabilities firefox
+INFO: Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
+1623340638321	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/1j/bzw5lnls487cjkbsknvy18x40000gn/T/rust_mozprofile1ibLiA"
+JavaScript warning: https://assetscdn-wchat.freshchat.com/static/assets/vendor-ae9740fdbeced57623cdffc937fa59b3.js, line 6905: unreachable code after return statement
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+1623340641900	Marionette	INFO	Listening on port 54925
+1623340641968	Marionette	WARN	TLS certificate errors will be ignored for this session
+Jun 10, 2021 10:57:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1623340648567	Marionette	INFO	Stopped listening on port 54550
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+Jun 10, 2021 10:57:29 PM org.openqa.selenium.remote.DesiredCapabilities firefox
+INFO: Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
+1623340649516	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/1j/bzw5lnls487cjkbsknvy18x40000gn/T/rust_mozprofileB2OBCH"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+JavaScript warning: https://assetscdn-wchat.freshchat.com/static/assets/vendor-ae9740fdbeced57623cdffc937fa59b3.js, line 6905: unreachable code after return statement
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+1623340652594	Marionette	INFO	Listening on port 55355
+1623340652642	Marionette	WARN	TLS certificate errors will be ignored for this session
+Jun 10, 2021 10:57:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1623340663265	Marionette	INFO	Stopped listening on port 54925
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+Jun 10, 2021 10:57:44 PM org.openqa.selenium.remote.DesiredCapabilities firefox
+INFO: Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
+JavaScript warning: https://assetscdn-wchat.freshchat.com/static/assets/vendor-ae9740fdbeced57623cdffc937fa59b3.js, line 6905: unreachable code after return statement
+1623340664198	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/1j/bzw5lnls487cjkbsknvy18x40000gn/T/rust_mozprofilekosZ58"
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623340667362	Marionette	INFO	Listening on port 55619
+1623340667409	Marionette	WARN	TLS certificate errors will be ignored for this session
+Jun 10, 2021 10:57:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1623340673162	Marionette	INFO	Stopped listening on port 55355
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript warning: https://assetscdn-wchat.freshchat.com/static/assets/vendor-ae9740fdbeced57623cdffc937fa59b3.js, line 6905: unreachable code after return statement
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+1623340685890	Marionette	INFO	Stopped listening on port 55619
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623340717287	Marionette	INFO	Stopped listening on port 53344
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+java.io.FileNotFoundException: Source '/Users/machruk/Nimbly/local-java-selenium-automation/test-output/testng.css' does not exist
+	at org.apache.commons.io.FileUtils.checkFileRequirements(FileUtils.java:1383)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1060)
+	at org.apache.commons.io.FileUtils.copyFileToDirectory(FileUtils.java:1000)
+	at org.apache.commons.io.FileUtils.copyFileToDirectory(FileUtils.java:961)
+	at com.gsInfo.framework.selenium.ResultSummaryManager.wrapUp(ResultSummaryManager.java:278)
+	at com.gsInfo.core.BaseTestCase.tearDownTestSuite(BaseTestCase.java:181)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)

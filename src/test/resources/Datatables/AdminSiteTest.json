@@ -1,0 +1,66 @@
+{
+   "Business_Flow":[
+      {
+		 "Tc_415_ToverifynavigationToSitePage":"lauchApp,login,verifyDashboardPage,navigateToSitePage",
+		 "Tc_417_ToverifySearchSiteFunctionality":"lauchApp,login,verifyDashboardPage,navigateToSitePage,searchSiteByName,searchSiteByAuthor",
+		 "TC_419_CreateSite": "lauchApp,login,verifyDashboardPage,addSiteToDepartment",
+		 "TC_421_BlockCreatedSite":"lauchApp,login,verifyDashboardPage,addSiteToDepartment,searchSiteJustCreated,blockSites",
+		 "TC_422_UnBlockSite":"lauchApp,login,verifyDashboardPage,addSiteToDepartment,searchSiteJustCreated,blockSites,clickBlockedSiteTab,unBlockSites",
+		 "TC_423_EditACreatedSite":"lauchApp,login,verifyDashboardPage,addSiteToDepartment,searchSiteJustCreated,editSiteName",
+         "Tc_425_ToverifyitemsunderbulkuploaddropdownInSitePage":"lauchApp,login,verifyDashboardPage,navigateToSitePage,clickBulkuploadButton,verifybulkuploadDropdown",
+         "Tc_426_ToverifyBulkUploadSiteFunctionality":"lauchApp,login,verifyDashboardPage,createDepartmentIfRequired,clickBulkuploadButton,clickbulkuploadSite,uploadFile,searchbulkUploadedSite"
+      }
+   ],
+   "General_Data":[
+      {
+         "TC_ID":"Tc_425_ToverifyitemsunderbulkuploaddropdownInSitePage",
+         "Email":"nimblyqc@gmail.com",
+         "Pwd":"Admin2021"
+      },
+	  {
+         "TC_ID":"Tc_415_ToverifynavigationToSitePage",
+         "Email":"nimblyqc@gmail.com",
+         "Pwd":"Admin2021"
+      },
+	  {
+         "TC_ID":"Tc_417_ToverifySearchSiteFunctionality",
+         "Email":"nimblyqc@gmail.com",
+         "Pwd":"Admin2021"
+      },
+	  {
+      "TC_ID": "TC_419_CreateSite",
+      "QuestionnaireCategory": "Cleanliness & Store Atmosphere",
+      "QuestionnaireQuestion": "How do you maintain Cleanliness",
+      "SiteAddress": "3320 Cherry St, Vancouver,BC"
+	  },
+	  {
+      "TC_ID": "TC_421_BlockCreatedSite",
+      "QuestionnaireCategory": "Cleanliness & Store Atmosphere",
+      "QuestionnaireQuestion": "How do you maintain Cleanliness",
+      "SiteAddress": "3320 Cherry St, Vancouver,BC"
+	  },
+	  {
+      "TC_ID": "TC_422_UnBlockSite",
+      "QuestionnaireCategory": "Cleanliness & Store Atmosphere",
+      "QuestionnaireQuestion": "How do you maintain Cleanliness",
+      "SiteAddress": "3320 Cherry St, Vancouver,BC"
+	  },
+	  {
+      "TC_ID": "TC_423_EditACreatedSite",
+      "QuestionnaireCategory": "Cleanliness & Store Atmosphere",
+      "QuestionnaireQuestion": "How do you maintain Cleanliness",
+      "SiteAddress": "3320 Cherry St, Vancouver,BC"
+	  },
+      {
+         "TC_ID":"Tc_426_ToverifyBulkUploadSiteFunctionality",
+         "QuestionnaireCategory":"Cleanliness & Store Atmosphere",
+         "QuestionnaireQuestion":"How do you maintain Cleanliness",
+         "NoOfSites":"2",
+         "SiteCountry":"Indonesia",
+         "SiteProvince":"Jawa Barat",
+         "SiteCity":"Kota Depok",
+         "BulkSiteAddress":"Jalan Sawangan Permai, Sawangan Baru, Depok City, West Java, Indonesia",
+         "SiteAddress":"3320 Cherry St, Vancouver,BC"
+      }
+   ]
+}

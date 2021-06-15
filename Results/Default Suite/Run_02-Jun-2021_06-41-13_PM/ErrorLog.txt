@@ -1,0 +1,27 @@
+Jun 02, 2021 6:41:13 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 12068
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1622634075.339][WARNING]: This version of ChromeDriver has not been tested with Chrome version 90.
+Jun 02, 2021 6:41:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:12068
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'Machruks-MacBook-Pro.local', ip: 'fe80:0:0:0:4be:e926:d805:a58c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '16'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at com.gsInfo.framework.selenium.SeleniumReport.takeScreenshot(SeleniumReport.java:83)
+	at com.gsInfo.framework.Report.handleStepInvolvingScreenshot(Report.java:496)
+	at com.gsInfo.framework.Report.updateTestLog(Report.java:347)
+	at com.gsInfo.core.CoreScript.exceptionHandler(CoreScript.java:121)
+	at com.gsInfo.core.CoreScript.executeTestIterations(CoreScript.java:190)
+	at com.gsInfo.core.CoreScript.executeTestCase(CoreScript.java:169)
+	at com.gsInfo.core.CoreScript.executeBusinessCase(CoreScript.java:176)
+	at com.gsInfo.core.CoreScript.driveTestExecution(CoreScript.java:94)
+	at testcases.WebAdmin.Tc_1089_addIssue(WebAdmin.java:209)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)

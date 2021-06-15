@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Regression" parallel="methods" thread-count="1">
+
+
+    <test name="SanityCheck">
+        <classes>
+            <class name="testcases.WebAdmin">
+                <methods>
+                    <!--					<include name="tc_548_searchSite"></include>-->
+
+                    <include name="tc_549_AddANewSite"></include>
+                    <include name="tc_553_EditSite"></include>
+                    <include name="tc_551_BlockSiteAndUnblock"></include>
+
+<!--                    <include name="tc_554_ScheduleSite"></include>&lt;!&ndash;&ndash;&gt;-->
+
+                    <include name="tc_AddInventorySKU"></include>
+                    <include name="Tc_EditInventorySKU"></include>
+                    <include name="tc_DeleteInventorySKU"></include>
+
+                    <include name="tc_720_AddInventorySKU"></include>
+                    <include name="tc_721_EditInventorySKU"></include>
+                    <include name="tc_722_DeleteInventorySKU"></include>
+                    <!--					<include name="tc_UnBlockSite"></include>-->
+<!--                    <include name="tc_CreatePO"></include>-->
+                </methods>
+
+            </class>
+            <!--            <class name="testcases.AndroidApp">-->
+            <!--                <methods>-->
+            <!--                    <include name="tc_Android_App_Sanity"></include>-->
+            <!--                    <include name="tc_Android_App_IssueTracker"></include>-->
+            <!--                    <include name="tc_Android_App_CreateAdHocIssue"></include>-->
+            <!--                </methods>-->
+            <!--            </class>-->
+        </classes>
+    </test>
+</suite> <!-- Suite -->

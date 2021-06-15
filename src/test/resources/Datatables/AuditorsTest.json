@@ -1,0 +1,64 @@
+{
+  "Business_Flow": [
+    {
+      "Tc_623_addAuditor": "lauchApp,login,addAuditor",
+      "Tc_628_editAuditor": "lauchApp,login,editAuditor",
+      "Tc_624_blockAuditor": "lauchApp,login,blockAuditor",
+      "Tc_625_activateAuditor": "lauchApp,login,activateAuditor",
+      "Tc_627_downloadAuditor": "lauchApp,login,downloadAuditor",
+      "Tc_626_bulkupload": "lauchApp,login,bulkupload",
+      "Tc_622_verifysearchauditor": "lauchApp,login,verifySearchAuditor",
+      "Tc_621_anavigatetoAuditors": "lauchApp,login,navigatetoAuditors"
+    }
+  ],
+  "General_Data": [
+    {
+      "TC_ID": "Tc_623_addAuditor",
+      "SiteName": "AutoSite_tevd101",
+      "Email": "nimblyqc@gmail.com",
+      "Pwd": "Admin2021"
+    },
+    {
+      "TC_ID": "Tc_628_editAuditor",
+      "SiteName": "AutoSite_tevd101",
+      "Email": "nimblyqc@gmail.com",
+      "Pwd": "Admin2021"
+    },
+    {
+      "TC_ID": "Tc_624_blockAuditor",
+      "SiteName": "AutoSite_tevd101",
+      "Email": "nimblyqc@gmail.com",
+      "Pwd": "Admin2021"
+    },
+    {
+      "TC_ID": "Tc_625_activateAuditor",
+      "SiteName": "AutoSite_tevd101",
+      "Email": "nimblyqc@gmail.com",
+      "Pwd": "Admin2021"
+    },
+    {
+      "TC_ID": "Tc_627_downloadAuditor",
+      "SiteName": "AutoSite_tevd101",
+      "Email": "nimblyqc@gmail.com",
+      "Pwd": "Admin2021"
+    },
+    {
+      "TC_ID": "Tc_626_bulkupload",
+      "SiteName": "AutoSite_tevd101",
+      "Email": "nimblyqc@gmail.com",
+      "Pwd": "Admin2021"
+    },
+    {
+      "TC_ID": "Tc_622_verifysearchauditor",
+      "SiteName": "AutoSite_tevd101",
+      "Email": "nimblyqc@gmail.com",
+      "Pwd": "Admin2021"
+    },
+    {
+      "TC_ID": "Tc_621_anavigatetoAuditors",
+      "SiteName": "AutoSite_tevd101",
+      "Email": "nimblyqc@gmail.com",
+      "Pwd": "Admin2021"
+    }
+  ]
+}

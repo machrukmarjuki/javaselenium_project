@@ -1,0 +1,176 @@
+{
+  "Business_Flow": [
+    {
+      "Tc_548_searchSite": "lauchApp,login,searchSite",
+      "Tc_549_AddANewSite": "lauchApp,login,addNewSite",
+      "Tc_551_BlockSiteAndUnblock": "lauchApp,login,searchSite,blockSites,unBlockSites",
+      "Tc_553_EditSite": "lauchApp,login,searchSite,editSite",
+      "Tc_553_BulkSiteUpload": "lauchApp,login,searchSite,editSite",
+      "Tc_554_ScheduleSite": "lauchApp,login,searchSite,schedule",
+      "Tc_AddInventorySKU": "lauchApp,login,navigateToInventory,addSKU",
+      "Tc_EditInventorySKU": "lauchApp,login,navigateToInventory,inventorySrch,editInventory",
+      "Tc_DeleteInventorySKU": "lauchApp,login,navigateToInventory,inventorySrch,deleteSKU",
+	  "Tc_c260_ToverifynavigationtoDepartmentPage": "lauchApp,login,verifyDashboardPage,navigateToDepartmentPage",
+      "Tc_1173_newPromotionsAllSites": "lauchApp,login,newPromAllSites",
+      "Tc_1174_newPromotionSpecSite": "lauchApp,login,newPromSpecSite",
+      "Tc_1175_newPromotionSpecDept": "lauchApp,login,newPromSpecDept",
+      "Tc_1176_newPromSpecDate": "lauchApp,login,newPromSpecDate",
+      "Tc_1177_editActivePromotion": "lauchApp,login,editActivePromotion",
+      "Tc_1178_editScheduledPromotion": "lauchApp,login,editScheduledPromotion",
+      "Tc_1179_endActivePromotion": "lauchApp,login,endActivePromotion",
+      "Tc_1180_deleteScheduledPromotion": "lauchApp,login,deleteScheduledPromotion",
+      "Tc_1181_resendPromotion": "lauchApp,login,resendPromotion",
+      "Tc_720_AddInventorySKU": "lauchApp,login,navToSiteSKU,addSKU",
+      "Tc_721_EditInventorySKU": "lauchApp,login,navToSiteSKU,editInventory",
+      "Tc_722_DeleteInventorySKU": "lauchApp,login,navToSiteSKU,deleteSiteSKU",
+      "Tc_CreatePO": "lauchApp,login,navToPO,createPO",
+      "Tc_1182_verifyPromoTitle": "lauchApp,login,verifyPromoTitle",
+      "Tc_1183_verifyPromoDesc": "lauchApp,login,verifyPromoDesc",
+      "Tc_1184_verifyPromSpecSite": "lauchApp,login,verifyPromSpecSite",
+      "Tc_1185_verifyPromSpecDept": "lauchApp,login,verifyPromSpecDept",
+      "Tc_1089_addIssue": "lauchApp,login,issueTrackerPageRendered,addIssueModal,addIssue",
+      "Tc_1091_updateStatusResolved": "lauchApp,login,updateStatusResolved",
+      "Tc_requiredFields": "lauchApp,login,requiredFields",
+      "Tc_1093_filterByQuest": "lauchApp,login,filterByQuest",
+      "Tc_1094_filterByUser": "lauchApp,login,filterByUser",
+      "Tc_1095_filterByDept": "lauchApp,login,filterByDepartment",
+      "Tc_1096_filterBySite": "lauchApp,login,filterBySite",
+      "Tc_1097_filterByFlag": "lauchApp,login,filterByFlag",
+      "Tc_1098_filterByStatus": "lauchApp,login,filterByStatus",
+      "Tc_1099_filterByPriority": "lauchApp,login,filterByPriority",
+      "Tc_1100_viewByPeriods": "lauchApp,login,viewByPeriods",
+      "Tc_1101_sortByDateCreated": "lauchApp,login,sortByDueDate,sortByDateCreated"
+    }
+  ],
+  "General_Data": [
+    {
+      "TC_ID": "Tc_549_AddANewSite",
+      "SiteName": "AutoSite_rFs634",
+      "Email": "nimblyqc@gmail.com",
+      "Pwd": "Admin2021",
+      "Pwd2": "Admin2021",
+      "xyz": "Admin2021"
+    },
+	
+	{
+	  "TC_ID": "Tc_c260_ToverifynavigationtoDepartmentPage",
+      "SiteName": "AutoSite_tevd101",
+      "Email": "nimblyqc@gmail.com",
+      "Pwd": "Admin2021"
+
+	},
+    {
+      "TC_ID": "Tc_AddANewSite",
+      "SiteName": "AutoSite_tevd101",
+      "Email": "nimblyqc@gmail.com",
+      "Pwd": "Admin2021"
+    },
+    {
+      "TC_ID": "Tc_AddInventorySKU",
+      "SiteName": "AutoSite_tevd101",
+      "Email": "nimblyqc@gmail.com",
+      "Pwd": "Admin2021"
+    },
+    {
+      "TC_ID": "Tc_1173_newPromotionsAllSites"
+    },
+    {
+      "TC_ID": "Tc_1174_newPromotionSpecSite"
+    },
+    {
+      "TC_ID": "Tc_1175_newPromotionSpecDept"
+    },
+    {
+      "TC_ID": "Tc_1176_newPromSpecDate"
+    },
+    {
+      "TC_ID": "Tc_1177_editActivePromotion"
+    },
+    {
+      "TC_ID": "Tc_1178_editScheduledPromotion"
+    },
+    {
+      "TC_ID": "Tc_1179_endActivePromotion"
+    },
+    {
+      "TC_ID": "Tc_1180_deleteScheduledPromotion"
+    },
+    {
+      "TC_ID": "Tc_1181_resendPromotion"
+    }, {
+      "TC_ID": "Tc_720_AddInventorySKU",
+      "SiteName": "AutoSite_rFs634",
+      "Email": "nimblyqc@gmail.com",
+      "Pwd": "Admin2021",
+      "Pwd2": "Admin2021",
+      "xyz": "Admin2021"
+    },
+    {
+      "TC_ID": "Tc_722_DeleteInventorySKU",
+      "SiteName": "AutoSite_rFs634",
+      "Email": "nimblyqc@gmail.com",
+      "Pwd": "Admin2021",
+      "Pwd2": "Admin2021",
+      "xyz": "Admin2021"
+    },
+    {
+      "TC_ID": "Tc_721_EditInventorySKU",
+      "SiteName": "AutoSite_rFs634",
+      "Email": "nimblyqc@gmail.com",
+      "Pwd": "Admin2021",
+      "Pwd2": "Admin2021",
+      "xyz": "Admin2021"
+
+    },
+    {
+      "TC_ID": "Tc_1182_verifyPromoTitle"
+    },
+    {
+      "TC_ID": "Tc_1183_verifyPromoDesc"
+    },
+    {
+      "TC_ID": "Tc_1184_verifyPromSpecSite"
+    },
+    {
+      "TC_ID": "Tc_1185_verifyPromSpecDept"
+    },
+    {
+      "TC_ID": "Tc_1089_addIssue"
+    },
+    {
+      "TC_ID": "Tc_1091_updateStatusResolved"
+    },
+    {
+      "TC_ID": "Tc_1186_requiredFields"
+    },
+    {
+      "TC_ID": "Tc_1094_filterByQuest"
+    },
+    {
+      "TC_ID": "Tc_1094_filterByUser"
+    },
+    {
+      "TC_ID": "Tc_1095_filterByDept"
+    },
+    {
+      "TC_ID": "Tc_1096_filterBySite"
+    },
+    {
+      "TC_ID": "Tc_1097_filterByFlag"
+    },
+    {
+      "TC_ID": "Tc_1098_filterByStatus"
+    },
+    {
+      "TC_ID": "Tc_1099_filterByPriority"
+    },
+    {
+      "TC_ID": "Tc_1100_viewByPeriods"
+    },
+    {
+      "TC_ID": "Tc_1101_sortByDateCreated"
+    }
+
+
+  ]
+}

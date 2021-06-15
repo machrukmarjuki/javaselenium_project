@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Regression" parallel="methods" thread-count="1">
+
+
+	<test name="SanityCheck">
+		<classes>
+			<class name="testcases.WebAdmin">
+				<methods>
+
+					<include name="Tc_add_questionnaire"></include>
+					<include name="Tc_edit_questionnaire"></include>
+					<include name="Tc_clone_questionnaire"></include>
+					<include name="Tc_delete_questionnaire"></include>
+
+                    <include name="tc_AddInventorySKU"></include>
+					<include name="tc_549_AddANewSite"></include>
+					<include name="tc_DeleteInventorySKU"></include>
+					<include name="tc_551_BlockSiteAndUnblock"></include>
+					<include name="tc_UnBlockSite"></include>
+					<include name="tc_552_EditSite"></include>
+					<include name="tc_553_EditSite"></include>
+<!--					<include name="tc_Android_App_Sanity"></include>-->
+
+
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+    <test name="SanityCheck">
+        <classes>
+            <class name="testcases.WebAdmin">
+                <methods>
+<!--                    <include name="Tc_630_department"></include>-->
+                    <!--					<include name="tc_548_searchSite"></include>-->
+
+
+                    <include name="tc_549_AddANewSite"></include>
+<!--                    <include name="tc_553_EditSite"></include>-->
+<!--                    <include name="tc_551_BlockSiteAndUnblock"></include>-->
+
+
+<!--                    <include name="tc_554_ScheduleSite"></include>-->
+
+                    <!--                                        <include name="tc_AddInventorySKU"></include>-->
+                    <!--                                        <include name="Tc_EditInventorySKU"></include>-->
+                    <!--                                        <include name="tc_DeleteInventorySKU"></include>-->
+
+                    <!--					<include name="tc_UnBlockSite"></include>-->
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite> <!-- Suite -->
+

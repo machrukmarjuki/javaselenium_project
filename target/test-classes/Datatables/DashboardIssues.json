@@ -1,0 +1,21 @@
+{
+   "Business_Flow":[
+      {
+		 "Tc_861_ToVerifyNavigationToDashboardIssuesPage":"lauchApp,login,navigateToDashboardIssuesPage",
+		 "Tc_862_ToVerifyUIofDashboardIssuesPage":"lauchApp, login, navigateToDashboardIssuesPage, verifyPresenceOfDropdownFiltersInDashboardIssuesPage, verifyPresenceOfFlagAnalyticsInDashboardIssuesPage, verifyPresenceOfTotalIssuesBlockInDashboardIssuesPage, verifyPresenceOfIssuesResolutionBlockInDashboardIssuesPage, verifyPresenceOfTopIssuesByFlagBlockInDashboardIssuesPage, verifyPresenceOfTopIssuesByQuestionBlockInDashboardIssuesPage"
+		 
+      }
+   ],
+   "General_Data":[
+      {
+         "TC_ID":"Tc_861_ToVerifyNavigationToDashboardIssuesPage",
+         "Email":"nimblyqc@gmail.com",
+         "Pwd":"Admin2021"
+      },
+      {
+         "TC_ID":"Tc_862_ToVerifyUIofDashboardIssuesPage",
+         "Email":"nimblyqc@gmail.com",
+         "Pwd":"Admin2021"
+      }
+   ]
+}

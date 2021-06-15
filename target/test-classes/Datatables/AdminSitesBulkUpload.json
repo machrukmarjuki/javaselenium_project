@@ -1,0 +1,27 @@
+{
+  "Business_Flow": [
+    {
+      "TC_427_VerifyTheFunctionalityOfBulkSiteUploadContainingDupliacteSites": "lauchApp, login, navigateToSitePage, openBulkSiteUploadModalInAdminSitesPage, bulkSiteUploadTemplateWithDuplicateSiteDetailsError",
+      "TC_428_VerifyTheFunctionalityOfBulkSiteUploadContainingInvalidSupervisorNames": "lauchApp, login, navigateToSitePage, openBulkSiteUploadModalInAdminSitesPage, bulkSiteUploadTemplateWithInvalidSupervisorError",
+      "TC_430_VerifyTheFunctionalityOfBulkSiteScheduleContainingDupliacteSchedules": "lauchApp, login, navigateToSitePage, openBulkScheduleUploadModalInAdminSitesPage, bulkScheduleUploadTemplateWithDuplicateScheduleError"
+      
+    }
+  ],
+  "General_Data": [
+    {
+      "TC_ID": "TC_427_VerifyTheFunctionalityOfBulkSiteUploadContainingDupliacteSites",
+      "Email":"nimblyqc@gmail.com",
+      "Pwd":"Admin2021"
+    },
+    {
+      "TC_ID": "TC_428_VerifyTheFunctionalityOfBulkSiteUploadContainingInvalidSupervisorNames",
+      "Email":"nimblyqc@gmail.com",
+      "Pwd":"Admin2021"
+    },
+    {
+      "TC_ID": "TC_430_VerifyTheFunctionalityOfBulkSiteScheduleContainingDupliacteSchedules",
+      "Email":"nimblyqc@gmail.com",
+      "Pwd":"Admin2021"
+    }
+  ]
+}

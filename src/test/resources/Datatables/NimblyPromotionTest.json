@@ -1,0 +1,35 @@
+{
+   "Business_Flow":[
+      {
+		 "ToverifynavigationtoPromotionsPage":"lauchApp,login,verifyDashboardPage,navigateToPromotionpage",
+		 "ToverifyfieldsinNewPromotionModal":"lauchApp,login,verifyDashboardPage,navigateToPromotionpage,verifyNewPromotionModal",
+		 "ToVerifyCreationOfpromotionWithAllSites":"lauchApp,login,verifyDashboardPage,navigateToPromotionpage,createNewPromotionAllSiteAllDept",
+		 "ToVerifyCreationOfpromotionWithCurrentDate":"lauchApp,login,verifyDashboardPage,navigateToPromotionpage,createNewPromotionAllSiteAllDept"
+		 
+		 
+      }
+   ],
+   "General_Data":
+   [
+      {
+         "TC_ID":"ToverifynavigationtoPromotionsPage",
+         "Email":"nimblyqc@gmail.com",
+         "Pwd":"Admin2021"
+      },
+	  {
+         "TC_ID":"ToverifyfieldsinNewPromotionModal",
+         "Email":"nimblyqc@gmail.com",
+         "Pwd":"Admin2021"
+      },
+	  {
+         "TC_ID":"ToVerifyCreationOfpromotionWithAllSites",
+         "PromotionCost":"45000",
+         "Pwd":"Admin2021"
+      },
+	  {
+         "TC_ID":"ToVerifyCreationOfpromotionWithCurrentDate",
+         "PromotionCost":"55000",
+         "Pwd":"Admin2021"
+      }
+   ]
+}

@@ -1,0 +1,14 @@
+Jun 10, 2021 10:06:42 PM org.openqa.selenium.remote.DesiredCapabilities firefox
+INFO: Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
+1623337602936	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/1j/bzw5lnls487cjkbsknvy18x40000gn/T/rust_mozprofilenMlvqu"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623337607357	Marionette	INFO	Listening on port 61856
+1623337607487	Marionette	WARN	TLS certificate errors will be ignored for this session
+Jun 10, 2021 10:06:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript warning: https://assetscdn-wchat.freshchat.com/static/assets/vendor-ae9740fdbeced57623cdffc937fa59b3.js, line 6905: unreachable code after return statement
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+1623337652604	Marionette	INFO	Stopped listening on port 61856
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

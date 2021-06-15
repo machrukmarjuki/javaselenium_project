@@ -1,0 +1,98 @@
+{
+  "Business_Flow": [
+    {
+      "UpdateMasterData": "lauchApp,login,verifyDashboardPage,navigateToDepartmentPage,updateMasterSheet",
+      "Tc_260_ToverifynavigationtoDepartmentPage": "lauchApp,login,verifyDashboardPage,navigateToDepartmentPage",
+      "Tc_261_ToVerifyElementsOfDepartmentPage": "lauchApp,login,verifyDashboardPage,navigateToDepartmentPage,verifyDepartmentElements",
+      "Tc_262_ToVerifyDepartmentSearchFunctionality": "lauchApp,login,verifyDashboardPage,createDepartmentIfNotPresent,searchCreatedDepartment",
+      "Tc_267_ToVerifyErrorMessageForDepartmentWithDuplicateUniqueKey": "lauchApp,login,verifyDashboardPage,navigateToDepartmentPage,verifyErrorMessageForDuplicateUniqueKey",
+      "Tc_268_ToVerifyErrorMessageForDepartmentWithDuplicateDepartmentName": "lauchApp,login,verifyDashboardPage,navigateToDepartmentPage,verifyErrorMessageForDuplicateDepartmentName",
+      "Tc_270_ToVerifyEditingExistngDepartmentWithDuplicateName": "lauchApp,login,verifyDashboardPage,navigateToDepartmentPage,editSearchedDepartment,verifyErrorMsgForDuplicateNameForExistingDepartmentName",
+      "Tc_277_ToVerifyAddDepartmentGroup": "lauchApp,login,verifyDashboardPage,navigateToDepartmentPage,createDepartmentGroup",
+      "Tc_276_ToVerifyNavigationToDepartmentGroupPage": "lauchApp,login,verifyDashboardPage,navigateToDepartmentPage,clickOnDepartmentGroupTab,verifyDepartmentGroupPage",
+      "Tc_274_VerifyBlockAndActivationFunctionality": "lauchApp,login,verifyDashboardPage,createDepartmentIfNotPresent,blockSearchedDepartment,activatedDepartment,verifyDepartmentDetails",
+      "Tc_278_VerifyResetFunctionalityForDepartmentGroup": "lauchApp,login,verifyDashboardPage,navigateToDepartmentPage,createDepartmentGroup,searhDepartmentGroup,verifyDepartmentGroupDetails,clickResetButton,verifyDepartmentDetailsIsCleared",
+      "Tc_275_ToVerifyNavigationToAddDepartmentGroup": "lauchApp,login,verifyDashboardPage,navigateToDepartmentPage,clickOnDepartmentGroupTab",
+      "TC_279_deactivateDepartmentGroup": "lauchApp,login,verifyDashboardPage,navigateToDepartmentPage,clickOnDepartmentGroupTab,createDepartmentGroupIfnotPresent,deaactivateDepartmentGroup",
+      "TC_280_reactivateDepartmentGroup": "lauchApp,login,verifyDashboardPage,navigateToDepartmentPage,clickOnDepartmentGroupTab,createDepartmentGroupIfnotPresent,deaactivateDepartmentGroup,reactivateDepartmentGrp"
+    }
+  ],
+  "General_Data": [
+    {
+      "TC_ID": "UpdateMasterData",
+      "SiteName": "AutoSite_tevd101",
+      "Email": "nimblyqc@gmail.com",
+      "Pwd": "Admin2021"
+    },
+    {
+      "TC_ID": "Tc_260_ToverifynavigationtoDepartmentPage",
+      "SiteName": "AutoSite_tevd101",
+      "Email": "nimblyqc@gmail.com",
+      "Pwd": "Admin2021"
+    },
+    {
+      "TC_ID": "Tc_261_ToVerifyElementsOfDepartmentPage",
+      "SiteName": "AutoSite_tevd101",
+      "Email": "nimblyqc@gmail.com",
+      "Pwd": "Admin2021"
+    },
+    {
+      "TC_ID": "Tc_267_ToVerifyErrorMessageForDepartmentWithDuplicateUniqueKey",
+      "DepartName": "AutoTestDepartment0101",
+      "email": "dept0101@gmail.com",
+      "Description": "Department0101 for automation"
+    },
+    {
+      "TC_ID": "Tc_268_ToVerifyErrorMessageForDepartmentWithDuplicateDepartmentName",
+      "email": "dept0101@gmail.com",
+      "Description": "Department Description for automation"
+    },
+    {
+      "TC_ID": "Tc_277_ToVerifyAddDepartmentGroup",
+      "email": "dept0101@gmail.com",
+      "Description": "Department Description for automation"
+    },
+    {
+      "TC_ID": "Tc_276_ToVerifyNavigationToDepartmentGroupPage",
+      "email": "dept0101@gmail.com",
+      "Description": "Department Description for automation"
+    },
+    {
+      "TC_ID": "Tc_274_VerifyBlockAndActivationFunctionality",
+      "QuestionnaireCategory": "Cleanliness & Store Atmosphere",
+      "QuestionnaireQuestion": "How do you maintain Cleanliness",
+      "SiteAddress": "3320 Cherry St, Vancouver,BC"
+    },
+    {
+      "TC_ID": "Tc_278_VerifyResetFunctionalityForDepartmentGroup",
+      "email": "dept0101@gmail.com",
+      "Description": "Department Description for automation"
+    },
+    {
+      "TC_ID": "Tc_275_ToVerifyNavigationToAddDepartmentGroup",
+      "email": "dept0101@gmail.com",
+      "Description": "Department Description for automation"
+    },
+    {
+      "TC_ID": "Tc_262_ToVerifyDepartmentSearchFunctionality",
+      "QuestionnaireCategory": "Cleanliness & Store Atmosphere",
+      "QuestionnaireQuestion": "What measure taken for cleaniness",
+      "SiteAddress": "3320 Cherry St, Vancouver,BC"
+    },
+    {
+      "TC_ID": "Tc_270_ToVerifyEditingExistngDepartmentWithDuplicateName",
+      "email": "dept0101@gmail.com",
+      "Description": "Department Description for automation"
+    },
+    {
+      "TC_ID": "TC_279_deactivateDepartmentGroup",
+      "email": "dept0101@gmail.com",
+      "Description": "Department Description for automation"
+    },
+    {
+      "TC_ID": "TC_280_reactivateDepartmentGroup",
+      "email": "dept0101@gmail.com",
+      "Description": "Department Description for automation"
+    }
+  ]
+}

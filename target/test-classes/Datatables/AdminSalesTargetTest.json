@@ -1,0 +1,73 @@
+{
+   "Business_Flow":[
+      {
+		 "TC_1123_ToVerifyNavigationToSalesTargetPage":"lauchApp, login, navigationToAdminSalesTargetPage",
+		 "TC_1124_ToVerifyUIofSalesTargetPage":"lauchApp, login, navigationToAdminSalesTargetPage, verifyUIofAdminSalesTargetPage",
+		 "TC_1125_ToVerifyWhetherUserCanCreateVariousSalesTargetForDifferentMonthAndYear":"lauchApp, login, navigationToAdminSalesTargetPage, selectPeriodAndVerifyPeriodSetForTableRows",
+		 "TC_1126_ToVerifySortingBySiteInSalesTargetPage":"lauchApp, login, navigationToAdminSalesTargetPage, verifySortingBySitesInSalesTargetPage",
+		 "TC_1132_ToVerifyPaginationFunctionalityOfSalesTargetPage":"lauchApp, login, navigationToAdminSalesTargetPage, verifyPaginationInSalesTargetPage",
+		 "TC_1133_ToVerifyEditFunctionalityAndEditSalesPopupOfSalesTargetPage":"lauchApp, login, navigationToAdminSalesTargetPage, rndmSrchSaleTargetUsngRndmSiteName, verifyEditSalesTarget",
+		 "TC_1134_ToVerifyViewDetailsButtonAndAddFieldInViewDetailsSection":"lauchApp, login, navigationToAdminSalesTargetPage, rndmSrchSaleTargetUsngRndmSiteName, verifyAddSaleDetails",
+		 "TC_1135_ToVerifyDltSalesInSaleDetailsPopup":"lauchApp, login, navigationToAdminSalesTargetPage, vrfyDltSaleFncInSaleDetailPopup",
+		 "TC_1136_ToVrfyTotallSalesMadeAndProgressAfterUpdatingSalesDetail":"lauchApp, login, navigationToAdminSalesTargetPage, rndmSrchSaleTargetUsngRndmSiteName, verifyEditSalesTarget, verifyAddSaleDetails, vrfyProgressSyncedProperlyInTable",
+		 "TC_1137_ToVerifySearchFunctionalityUsingSiteNameInSalesTargetPage":"lauchApp, login, navigationToAdminSalesTargetPage, verifySearchSaleDetailsUsingSiteName",
+		 "TC_1138_ToVerifyCancelFunctionalityEditSalesPopupWindow":"lauchApp, login, navigationToAdminSalesTargetPage, vrfyCnclFcnInEditSalesPopup",
+		 "TC_1140_ToVerifySaleDetailsInSalesDetailsPopup":"lauchApp, login, navigationToAdminSalesTargetPage, rndmSrchSaleTargetUsngRndmSiteName, verifyUIofAddSaleDetails",
+		 "TC_1141_ToVerifyUserCanAddSaleDetailsForMultipleDateInSalesDetailsPopup":"lauchApp, login, navigationToAdminSalesTargetPage, vrfyAddSaleDetailsForMultipleDates",
+		 "TC_1142_ToVrfySalesMadeAmountForEachDate":"lauchApp, login, navigationToAdminSalesTargetPage, rndmSrchSaleTargetUsngRndmSiteName, verifyUIofAddSaleDetails, dltSaleInSaleDetailPopup, addSalesDetailForEachDate",
+		 "TC_1143_ToVerifyProgressBarUpdatesCorrectlyInSalesDetailsPopup":"lauchApp, login, navigationToAdminSalesTargetPage, vrfyProgressBarWhenAddingSaleDetailsForMultipleDates",
+		 "TC_1144_ToVerifyEditSalesTargetForVariousMonths":"lauchApp, login, navigationToAdminSalesTargetPage, verifyEditSalesTargetForVariousMonths"
+		 
+      }
+   ],
+   "General_Data":[
+      {
+         "TC_ID":"TC_1123_ToVerifyNavigationToSalesTargetPage"
+      },
+      {
+         "TC_ID":"TC_1124_ToVerifyUIofSalesTargetPage"
+      },
+      {
+         "TC_ID":"TC_1125_ToVerifyWhetherUserCanCreateVariousSalesTargetForDifferentMonthAndYear"
+      },
+      {
+         "TC_ID":"TC_1126_ToVerifySortingBySiteInSalesTargetPage"
+      },
+      {
+         "TC_ID":"TC_1132_ToVerifyPaginationFunctionalityOfSalesTargetPage"
+      },
+      {
+         "TC_ID":"TC_1133_ToVerifyEditFunctionalityAndEditSalesPopupOfSalesTargetPage"
+      },
+      {
+         "TC_ID":"TC_1134_ToVerifyViewDetailsButtonAndAddFieldInViewDetailsSection"
+      },
+      {
+         "TC_ID":"TC_1135_ToVerifyDltSalesInSaleDetailsPopup"
+      },
+      {
+         "TC_ID":"TC_1136_ToVrfyTotallSalesMadeAndProgressAfterUpdatingSalesDetail"
+      },
+      {
+         "TC_ID":"TC_1137_ToVerifySearchFunctionalityUsingSiteNameInSalesTargetPage"
+      },
+      {
+         "TC_ID":"TC_1138_ToVerifyCancelFunctionalityEditSalesPopupWindow"
+      },
+      {
+         "TC_ID":"TC_1140_ToVerifySaleDetailsInSalesDetailsPopup"
+      },
+      {
+         "TC_ID":"TC_1141_ToVerifyUserCanAddSaleDetailsForMultipleDateInSalesDetailsPopup"
+      },
+      {
+         "TC_ID":"TC_1142_ToVrfySalesMadeAmountForEachDate"
+      },
+      {
+         "TC_ID":"TC_1143_ToVerifyProgressBarUpdatesCorrectlyInSalesDetailsPopup"
+      },
+      {
+         "TC_ID":"TC_1144_ToVerifyEditSalesTargetForVariousMonths"
+      }
+   ]
+}

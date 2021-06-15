@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Regression" parallel="methods" thread-count="3">
+
+
+    <test name="SanityCheck">
+        <classes>
+            <class name="testcases.AdminDepartmentsTest">
+                <methods>
+                    <!--                Departments TCs                -->
+                     <include name="Tc_631_adddepartment"></include>
+                    <include name="Tc_630_verifysearchdepartment"></include>
+                    <include name="Tc_632_editdepartment"></include>
+                    <include name="Tc_633_deletedepartment"></include>
+                </methods>
+            </class>
+
+             <class name="testcases.QuestionnaireTest">
+                <methods>
+                <!--                Questionnaire TCs                -->
+                <include name="Tc_643_questionnairesamecategory"></include>
+                <include name="Tc_644_questionnairedifferentcategory"></include>
+                <include name="Tc_642_verifycreatequestionnaire"></include>
+                <include name="Tc_641_verifysearchquestionnaire"></include>
+                <include name="Tc_834_editquestionnaire"></include>
+                <include name="Tc_646_clonequestionnaire"></include>
+                <include name="Tc_648_uploaddquestionnaire"></include>
+                <include name="Tc_647_downloadquestionnaire"></include>
+                <include name="Tc_645_deletequestionnaire"></include>
+                </methods>
+            </class>
+
+            <class name="testcases.AuditorsTest">
+            <methods>
+                <!--                Auditors TCs                -->
+                <include name="Tc_621_anavigatetoAuditors"></include>
+                <include name="Tc_623_addAuditor"></include>
+                <include name="Tc_622_verifysearchauditor"></include>
+                <include name="Tc_628_editAuditor"></include>
+                <include name="Tc_624_blockAuditor"></include>
+                <include name="Tc_625_activateAuditor"></include>
+                <include name="Tc_627_downloadAuditor"></include>
+                <include name="Tc_626_bulkupload"></include>
+             </methods>
+            </class>
+
+            <class name="testcases.AdminDepartmentsGroupTest">
+                <methods>
+                    <!--                Department Group TCs                -->
+                    <include name="Tc_635_navigatedepartmentgroup"></include>
+                    <include name="Tc_636_adddepartmentgroup"></include>
+                    <include name="Tc_637_resetdepartmentgroup"></include>
+                    <include name="Tc_638_deactivatedepartmentgroup"></include>
+                    <include name="Tc_1187_reactivatedepartmentgroup"></include>
+
+                </methods>
+            </class>
+
+            <class name="testcases.AdminDashboardTest">
+                <methods>
+                    <!--                Dashboard TCs                -->
+                    <include name="Tc_800_verifyDashboardoverview"></include>
+                    <include name="Tc_801_verifyoverviewfilterfunctionality"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

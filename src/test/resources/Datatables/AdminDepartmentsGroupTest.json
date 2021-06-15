@@ -1,0 +1,45 @@
+{
+  "Business_Flow": [
+    {
+      "Tc_635_navigatedepartmentgroup": "lauchApp,login,navigatetoDepartmentGroup",
+      "Tc_636_adddepartmentgroup": "lauchApp,login,addDepartmentGroup",
+      "Tc_637_resetdepartmentgroup": "lauchApp,login,resetDepartmentGroup",
+      "Tc_638_deactivatedepartmentgroup": "lauchApp,login,deactivateDepartmentGroup",
+      "Tc_1187_reactivatedepartmentgroup": "lauchApp,login,reactivateDepartmentGroup"
+
+
+    }
+  ],
+  "General_Data": [
+    {
+      "TC_ID": "Tc_635_navigatedepartmentgroup",
+      "DepartmentName": "AutoDepartment_EY1c24",
+      "Email": "zahran@hellonimbly.com",
+      "Pwd": "P@ssw0rd"
+    },
+    {
+      "TC_ID": "Tc_636_adddepartmentgroup",
+      "DepartmentName": "AutoDepartment_EY1c24",
+      "Email": "zahran@hellonimbly.com",
+      "Pwd": "P@ssw0rd"
+    },
+    {
+      "TC_ID": "Tc_637_resetdepartmentgroup",
+      "DepartmentName": "AutoDepartment_EY1c24",
+      "Email": "zahran@hellonimbly.com",
+      "Pwd": "P@ssw0rd"
+    },
+    {
+      "TC_ID": "Tc_638_deactivatedepartmentgroup",
+      "DepartmentName": "AutoDepartment_EY1c24",
+      "Email": "zahran@hellonimbly.com",
+      "Pwd": "P@ssw0rd"
+    },
+    {
+      "TC_ID": "Tc_1187_reactivatedepartmentgroup",
+      "DepartmentName": "AutoDepartment_EY1c24",
+      "Email": "zahran@hellonimbly.com",
+      "Pwd": "P@ssw0rd"
+    }
+  ]
+}

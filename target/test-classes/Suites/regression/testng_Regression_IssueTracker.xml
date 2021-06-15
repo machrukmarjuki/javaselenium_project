@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Regression" parallel="methods" thread-count="3">
+
+
+    <test name="SanityCheck">
+        <classes>
+            <class name="testcases.WebAdmin">
+                <methods>
+                    <!--                IssueTracker TCs                -->
+                    <include name="Tc_1089_addIssue"></include>
+                    <include name="Tc_1091_updateStatusResolved"></include>
+                    <include name="Tc_1186_requiredFields"></include>
+                    <include name="Tc_1093_filterByQuest"></include>
+                    <include name="Tc_1094_filterByUser"></include>
+                    <include name="Tc_1095_filterByDept"></include>
+                    <include name="Tc_1096_filterBySite"></include>
+                    <include name="Tc_1097_filterByFlag"></include>
+                    <include name="Tc_1098_filterByStatus"></include>
+                    <include name="Tc_1099_filterByPriority"></include>
+                    <include name="Tc_1100_viewByPeriods"></include>
+                    <include name="Tc_1101_sortByDateCreated"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

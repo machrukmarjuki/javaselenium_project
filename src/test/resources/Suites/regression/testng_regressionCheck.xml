@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Regression" parallel="methods" thread-count="1">
+
+
+    <test name="SanityCheck">
+        <classes>
+            <class name="testcases.DepartmentTest">
+                <methods>
+                	<include name="UpdateMasterData"></include>
+                    <include name="Tc_260_ToverifynavigationtoDepartmentPage"></include>
+					<include name="Tc_261_ToVerifyElementsOfDepartmentPage"></include>
+					<include name="Tc_262_ToVerifyDepartmentSearchFunctionality"></include>
+					<include name="Tc_267_ToVerifyErrorMessageForDepartmentWithDuplicateUniqueKey"></include>
+					<include name="Tc_268_ToVerifyErrorMessageForDepartmentWithDuplicateDepartmentName"></include>
+					<include name="Tc_270_ToVerifyEditingExistngDepartmentWithDuplicateName"></include>
+                    <include name="Tc_277_ToVerifyAddDepartmentGroup"></include>
+                    <include name="Tc_275_ToVerifyNavigationToAddDepartmentGroup"></include>
+                    <include name="Tc_276_ToVerifyNavigationToDepartmentGroupPage"></include>
+                    <include name="Tc_274_VerifyBlockAndActivationFunctionality"></include> 
+                    <include name="Tc_278_VerifyResetFunctionalityForDepartmentGroup"></include>
+                    <include name="TC_279_deactivateDepartmentGroup"></include>
+                    <include name="TC_280_reactivateDepartmentGroup"></include>
+                    
+                </methods>
+            </class>
+            <class name="testcases.AdminSiteTest">
+                <methods>
+                	<include name="Tc_415_ToverifynavigationToSitePage"></include>
+                	<include name="Tc_417_ToverifySearchSiteFunctionality"></include>
+                	<include name="TC_419_CreateSite"></include>
+                	<include name="TC_421_BlockCreatedSite"></include>
+                	<include name="TC_423_EditACreatedSite"></include>
+                    <include name="Tc_425_ToverifyitemsunderbulkuploaddropdownInSitePage"></include>
+                    <include name="Tc_426_ToverifyBulkUploadSiteFunctionality"></include>
+                 </methods>    
+			</class>
+			<class name="testcases.IssueTrackerTest">
+                <methods>
+                	<include name="Tc_1010_ToverifynavigationtoIssueTrackerPage"></include>
+                	<include name="Tc_1012_ToverifyfilterByQuestionnaire"></include>
+                	<include name="Tc_1013_ToverifyfilterByUser"></include>
+                	<include name="Tc_1014_ToverifyfilterByDepartment"></include>
+                	<include name="Tc_1015_ToverifyfilterBySite"></include>
+                	<include name="Tc_1016_ToverifyfilterByFlag"></include>
+                	<include name="Tc_1017_ToverifyfilterByStatus"></include>
+                	<include name="Tc_1023_ToverifyAddIssueModal"></include>
+                	<include name="Tc_1024_ToverifyAddIssueFunctionality"></include>
+                	<include name="Tc_1022_ToverifyFilterByQuestionTitleAndCategory"></include>
+               </methods>    
+			</class>
+			<class name="testcases.NimblyPromotionTest">
+				<methods>
+					<include name="ToverifynavigationtoPromotionsPage"></include>
+					<include name="ToverifyfieldsinNewPromotionModal"></include>
+					<include name="ToVerifyCreationOfpromotionWithAllSites"></include>
+					<include name="ToVerifyCreationOfpromotionWithCurrentDate"></include>
+				</methods>
+			</class>
+        </classes>
+    </test>  
+</suite> <!-- Suite --> 

@@ -1,0 +1,36 @@
+{
+  "Business_Flow": [
+    {
+      "Tc_AddANewSite": "lauchApp,login,searchSite,blockSites",
+      "Tc_Android_App_Sanity": "andoidLogin,mobileApp",
+      "Tc_Android_App_IssueTracker": "andoidLogin,validateAppHome",
+      "Tc_Android_App_CreateAdHocIssue": "andoidLogin,createAdHocIssue",
+      "Tc_Android_App_CreateAdHocIssueYellowFlag": "andoidLogin,createAdHocIssue",
+      "Tc_Android_App_UI": "andoidLogin,androidUI",
+      "Tc_Android_App_Profile": "andoidLogin,validateProfileData",
+      "Tc_Android_App_FilterIssueBySite": "andoidLogin,validateFilterBySite",
+      "Tc_Android_App_FilterIssueByDepart": "andoidLogin,validateFilterByDepart",
+      "Tc_Android_App_FilterIssueByRedFlag": "andoidLogin,validateFilterByFlag",
+      "Tc_Android_App_FilterIssueByYellowFlag": "andoidLogin,validateFilterByFlag"
+    }
+  ],
+  "General_Data": [
+    {
+      "TC_ID": "Tc_AddANewSite",
+      "SiteName": "AutoSite_tevd101",
+      "Email": "nimblyqc@gmail.com",
+      "Pwd": "Admin2021"
+    },{
+      "TC_ID": "Tc_Android_App_IssueTracker",
+      "Flag": "Red"
+    },
+    {
+      "TC_ID": "Tc_Android_App_CreateAdHocIssueYellowFlag",
+      "Flag": "Yellow"
+    },
+    {
+      "TC_ID": "Tc_Android_App_CreateAdHocIssue",
+      "Flag": "Red"
+    }
+  ]
+}

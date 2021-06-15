@@ -1,0 +1,48 @@
+{
+  "Business_Flow": [
+    {
+      "Tc_add_auditor": "lauchApp,login,addAuditor",
+      "Tc_edit_auditor": "lauchApp,login,editAuditor",
+      "Tc_delete_auditor": "lauchApp,login,deleteAuditor",
+      "Tc_add_inventory": "lauchApp,login,addInventory",
+      "Tc_edit_inventory": "lauchApp,login,editInventory",
+      "Tc_delete_inventory": "lauchApp,login,deleteInventory",
+      "Tc_AddANewSite": "lauchApp,login,searchSite,blockSites",
+      "Tc_Android_App_Sanity": "mobileApp",
+      "Tc_demo_LoginTC": "lauchApp,demoLogin"
+    }
+  ],
+  "General_Data": [
+
+    {
+      "TC_ID": "Tc_add_auditor",
+      "Email": "zahran@hellonimbly.com",
+      "Pwd": "P@ssw0rd"
+    },
+    {
+      "TC_ID": "Tc_edit_auditor",
+      "Email": "zahran@hellonimbly.com",
+      "Pwd": "P@ssw0rd"
+    },
+    {
+      "TC_ID": "Tc_delete_auditor",
+      "Email": "zahran@hellonimbly.com",
+      "Pwd": "P@ssw0rd"
+    },
+    {
+      "TC_ID": "Tc_add_inventory",
+      "Email": "zahran@hellonimbly.com",
+      "Pwd": "P@ssw0rd"
+    },
+    {
+      "TC_ID": "Tc_edit_inventory",
+      "Email": "zahran@hellonimbly.com",
+      "Pwd": "P@ssw0rd"
+    },
+    {
+      "TC_ID": "Tc_delete_inventory",
+      "Email": "zahran@hellonimbly.com",
+      "Pwd": "P@ssw0rd"
+    }
+  ]
+}

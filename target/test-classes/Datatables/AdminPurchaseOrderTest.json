@@ -1,0 +1,57 @@
+{
+   "Business_Flow":[
+      {
+		 "TC_696_ToVerifyNavigationToPOPage":"lauchApp, login, navigationToAdminPurchaseOrderPage",
+		 "TC_697_ToVerifyUIOfPOpage":"lauchApp, login, navigationToAdminPurchaseOrderPage, verifyUIofPurchaseOrderPage",
+		 "TC_699_ToVerifyTheFunctionalityOfAddPurchaseOrderButton":"lauchApp, login, navigationToAdminPurchaseOrderPage, clickOnAddPurchaseOrderButton, verifyUIelementsInAddPOpage",
+		 "TC_702_ToVerifyTheFunctionalityOfCreatingPOwithNoSKUadded":"lauchApp, login, navigationToAdminPurchaseOrderPage, verifySKUrequiredErrorInAddPPOWindow",
+		 "TC_700_ToVerifyTheFunctionalityOfCreatingPO":"lauchApp, login, navigationToAdminPurchaseOrderPage, addNewPOandVerify",
+		 "TC_698_ToVerifySearchFunctionalityOfPOpage":"lauchApp, login, navigationToAdminPurchaseOrderPage, createPOifPOdoesNotExist, verifySearchPOfunctionality",
+		 "TC_701_ToVerifyFunctionalityOfCreatingPOwithMultipleSKU":"lauchApp, login, navigationToAdminPurchaseOrderPage, addNewPOwithMultipleSKUandVerify",
+		 "TC_703_ToVerifyFunctionalityOfEditingPOwithInProgressStatus":"lauchApp, login, navigationToAdminPurchaseOrderPage, reorderFromExistingPO",
+		 "TC_704_ToVerifyFunctionalityOfEditingPOwithDeliveredStatus":"lauchApp, login, navigationToAdminPurchaseOrderPage, reorderFromExistingPOinDelivered",
+		 "TC_1121_ToVerifyFunctionalityOfChangingPOstatusFromInProgressToDelivered":"lauchApp, login, navigationToAdminPurchaseOrderPage, changeStatusOfPOtoDeliveredFromPOtable",
+		 "TC_1122_ToVerifyDateFieldsDoesNotAcceptPastDates":"lauchApp, login, navigationToAdminPurchaseOrderPage, verifyDateErrorInAddPOpage",
+		 "TC_1120_ToVerifyFunctionalityOfSortAscendingDescendingInPOTable":"lauchApp, login, navigationToAdminPurchaseOrderPage, verifySortingByOrderNoInPOpage, verifySortingByOrderDateInPOpage, verifySortingByRequestedByInPOpage, verifySortingByVendorInPOpage, verifySortingByTotalOrderInPOpage"
+		 
+      }
+   ],
+   "General_Data":[
+      {
+         "TC_ID":"TC_696_ToVerifyNavigationToPOPage"
+      },
+      {
+         "TC_ID":"TC_697_ToVerifyUIOfPOpage"
+      },
+      {
+         "TC_ID":"TC_699_ToVerifyTheFunctionalityOfAddPurchaseOrderButton"
+      },
+      {
+         "TC_ID":"TC_702_ToVerifyTheFunctionalityOfCreatingPOwithNoSKUadded"
+      },
+      {
+         "TC_ID":"TC_700_ToVerifyTheFunctionalityOfCreatingPO"
+      },
+      {
+         "TC_ID":"TC_698_ToVerifySearchFunctionalityOfPOpage"
+      },
+      {
+         "TC_ID":"TC_701_ToVerifyFunctionalityOfCreatingPOwithMultipleSKU"
+      },
+      {
+         "TC_ID":"TC_703_ToVerifyFunctionalityOfEditingPOwithInProgressStatus"
+      },
+      {
+         "TC_ID":"TC_704_ToVerifyFunctionalityOfEditingPOwithDeliveredStatus"
+      },
+      {
+         "TC_ID":"TC_1121_ToVerifyFunctionalityOfChangingPOstatusFromInProgressToDelivered"
+      },
+      {
+         "TC_ID":"TC_1122_ToVerifyDateFieldsDoesNotAcceptPastDates"
+      },
+      {
+         "TC_ID":"TC_1120_ToVerifyFunctionalityOfSortAscendingDescendingInPOTable"
+      }
+   ]
+}

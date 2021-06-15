@@ -1,0 +1,194 @@
+package com.gsInfo.framework.selenium;
+
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.Properties;
+import java.util.concurrent.TimeUnit;
+
+import com.google.common.collect.ImmutableMap;
+import io.appium.java_client.MobileElement;
+import org.apache.tools.ant.taskdefs.WaitFor;
+import org.openqa.selenium.remote.DesiredCapabilities;
+
+import com.gsInfo.framework.FrameworkException;
+import com.gsInfo.framework.Settings;
+
+import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.ios.IOSDriver;
+
+public class AppiumDriverFactory {
+
+    private static Properties mobileProperties;
+
+    private AppiumDriverFactory() {
+        // To prevent external instantiation of this class
+    }
+
+    /**
+     * Function to return the object for AppiumDriver {@link AppiumDriver}
+     * object
+     *
+     * @param executionPlatform executionPlatform{@link MobileExecutionPlatform}
+     * @param deviceName        The deviceName
+     * @param version           The Mobile Device OS Version
+     * @param installApp        Boolean to install App
+     * @param appiumURL         URL of the Appium
+     * @return Instance of the {@link AndroidDriver} object
+     */
+    @SuppressWarnings("rawtypes")
+    public static AndroidDriver <MobileElement>getAppiumDriver(MobileExecutionPlatform executionPlatform, String deviceName,
+															   String version, Boolean installApp, String appiumURL) {
+
+        AndroidDriver<MobileElement> driver = null;
+        mobileProperties = Settings.getMobilePropertiesInstance();
+        DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
+        try {
+            switch (executionPlatform) {
+
+                case ANDROID:
+
+                    if (Boolean.parseBoolean(mobileProperties.getProperty("InstallApplicationInDevice"))) {
+                        desiredCapabilities.setCapability("app", mobileProperties.getProperty("AndroidApplicationPath"));
+                    }
+
+                    if (!Boolean.parseBoolean(mobileProperties.getProperty("ResetApp"))) {
+                        desiredCapabilities.setCapability("noReset", "true");
+                    }
+
+                    desiredCapabilities.setCapability("platformName", "Android");
+                    desiredCapabilities.setCapability("deviceName", deviceName);
+                    desiredCapabilities.setCapability("udid", deviceName);
+                    desiredCapabilities.setCapability("platformVersion", version);
+
+                    desiredCapabilities.setCapability("appPackage",
+                            mobileProperties.getProperty("Application_Package_Name"));
+//				desiredCapabilities.setCapability("appWaitPackage",
+//						mobileProperties.getProperty("Application_Package_Name"));
+                    desiredCapabilities.setCapability("appWaitDuration",
+                            100000);
+                    desiredCapabilities.setCapability("appActivity", mobileProperties.getProperty("Application_MainActivity_Name"));
+                    desiredCapabilities.setCapability("unicodeKeyboard", true);
+                    desiredCapabilities.setCapability("resetKeyboard", true);
+//				desiredCapabilities.setCapability("appWaitActivity",mobileProperties.getProperty("Application_MainActivity_Name"));
+
+                    desiredCapabilities.setCapability("chromedriverExecutable", "/usr/local/bin/chromedriver");
+
+                    try {
+                        //driver = new AndroidDriver(new URL(appiumURL), desiredCapabilities);
+                        driver = new AndroidDriver<MobileElement>(new URL(appiumURL), desiredCapabilities);
+                        Thread.sleep(5000);
+
+                    } catch (MalformedURLException e) {
+                        throw new FrameworkException(
+                                "The android driver invokation has problem, please re-check the capabilities or Start Appium");
+                    }
+                    break;
+
+
+                case WEB_ANDROID:
+
+                    desiredCapabilities.setCapability("platformName", "Android");
+                    desiredCapabilities.setCapability("deviceName", deviceName);
+                    desiredCapabilities.setCapability("udid", deviceName);
+                    desiredCapabilities.setCapability("platformVersion", version);
+                    desiredCapabilities.setCapability("browserName", "Chrome");
+                    desiredCapabilities.setCapability("appium:chromeOptions", ImmutableMap.of("w3c", false));
+                    try {
+                        driver = new AndroidDriver(new URL(appiumURL), desiredCapabilities);
+                    } catch (MalformedURLException e) {
+                        throw new FrameworkException(
+                                "The android driver invokation has problem, please check the capabilities or Start Appium");
+                    }
+                    break;
+
+            }
+        } catch (Exception ex) {
+            ex.printStackTrace();
+            throw new FrameworkException(
+                    "The appium driver invocation created a problem , please check the capabilities");
+        }
+
+        return driver;
+
+    }
+
+    /**
+     * Function to return the object for AppiumDriver {@link AppiumDriver}
+     * object
+     *
+     * @param executionPlatform executionPlatform{@link MobileExecutionPlatform}
+     * @param deviceName        The deviceName
+     * @param version           The Mobile Device OS Version
+     * @param installApp        Boolean to install App
+     * @param appiumURL         URL of the Appium
+     * @return Instance of the {@link AppiumDriver} object
+     */
+    @SuppressWarnings("rawtypes")
+    public static IOSDriver getAndroidDriver(MobileExecutionPlatform executionPlatform, String deviceName,
+                                             String version, Boolean installApp, String appiumURL) {
+
+        IOSDriver driver = null;
+        mobileProperties = Settings.getMobilePropertiesInstance();
+        DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
+        try {
+            switch (executionPlatform) {
+
+                case IOS:
+
+                    if (Boolean.parseBoolean(mobileProperties.getProperty("InstallApplicationInDevice"))) {
+                        desiredCapabilities.setCapability("app", mobileProperties.getProperty("iPhoneApplicationPath"));
+                    }
+
+                    if (!Boolean.parseBoolean(mobileProperties.getProperty("ResetApp"))) {
+                        desiredCapabilities.setCapability("noReset", "true");
+                    }
+
+                    desiredCapabilities.setCapability("automationName", "XCUITest");
+                    desiredCapabilities.setCapability("platformName", "iOS");
+                    desiredCapabilities.setCapability("platformVersion", version);
+                    desiredCapabilities.setCapability("deviceName", deviceName);
+                    desiredCapabilities.setCapability("udid", deviceName);
+                    desiredCapabilities.setCapability("bundleId", mobileProperties.getProperty("iPhoneBundleID"));
+
+                    try {
+                        driver = new IOSDriver(new URL(appiumURL), desiredCapabilities);
+
+                    } catch (MalformedURLException e) {
+                        throw new FrameworkException(
+                                "The IOS driver invokation has problem, please re-check the capabilities or Start Appium");
+                    }
+                    break;
+
+
+                case WEB_IOS:
+
+                    desiredCapabilities.setCapability("platformName", "iOS");
+                    desiredCapabilities.setCapability("platformVersion", version);
+                    desiredCapabilities.setCapability("deviceName", deviceName);
+                    desiredCapabilities.setCapability("udid", deviceName);
+                    desiredCapabilities.setCapability("automationName", "XCUITest");
+                    desiredCapabilities.setCapability("browserName", "Safari");
+                    try {
+                        driver = new IOSDriver(new URL(appiumURL), desiredCapabilities);
+
+                    } catch (MalformedURLException e) {
+                        throw new FrameworkException(
+                                "The IOS driver invokation has problem, please check the capabilities or Start Appium");
+                    }
+                    break;
+
+                default:
+                    throw new FrameworkException("Unhandled ExecutionMode!");
+
+            }
+        } catch (Exception ex) {
+            ex.printStackTrace();
+            throw new FrameworkException(
+                    "The appium driver invocation created a problem , please check the capabilities");
+        }
+
+        return driver;
+
+    }
+}

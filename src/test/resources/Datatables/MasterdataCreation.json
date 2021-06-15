@@ -1,0 +1,29 @@
+{
+   "Business_Flow":[
+      {
+         "AddDepartment":"lauchApp,login,verifyDashboardPage,createDepartmentMaster",
+         "AddSite":"lauchApp,login,verifyDashboardPage,addSiteToDepartmentMaster",
+         "AddQuestionnaire":"lauchApp,login,verifyDashboardPage,addQuestionnaireToDepartmentMaster"
+      }
+   ],
+   "General_Data":[
+      {
+         "TC_ID":"AddDepartment",
+         "QuestionnaireCategory":"Cleanliness & Store Atmosphere",
+         "QuestionnaireQuestion":"How do you maintain Cleanliness",
+         "SiteAddress":"3320 Cherry St, Vancouver,BC"
+      },
+      {
+         "TC_ID":"AddSite",
+         "QuestionnaireCategory":"Cleanliness & Store Atmosphere",
+         "QuestionnaireQuestion":"How do you maintain Cleanliness",
+         "SiteAddress":"3320 Cherry St, Vancouver,BC"
+      },
+      {
+         "TC_ID":"AddQuestionnaire",
+         "QuestionnaireCategory":"Cleanliness & Store Atmosphere",
+         "QuestionnaireQuestion":"How do you maintain Cleanliness",
+         "SiteAddress":"3320 Cherry St, Vancouver,BC"
+      }
+   ]
+}
